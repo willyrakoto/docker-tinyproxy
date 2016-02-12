@@ -15,5 +15,5 @@ RUN chmod 777 -R /var/log/tinyproxy
 RUN mkdir -p /var/run/tinyproxy && \
     chmod 777 -R /var/run/tinyproxy
 
-EXPOSE 8080
+EXPOSE 8888
 ENTRYPOINT ["/usr/sbin/tinyproxy", "-d"]
